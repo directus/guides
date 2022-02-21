@@ -2,7 +2,7 @@
 title: Get Started Building a React Website with Directus
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image:
+image: ./react/react-example.webp
 category: integration
 ---
 

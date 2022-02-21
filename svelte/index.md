@@ -2,7 +2,7 @@
 title: Get Started Building a Svelte Website with Directus
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image:
+image: ./svelte/svelte-example.webp
 category: integration
 ---
 

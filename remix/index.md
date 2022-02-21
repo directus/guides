@@ -3,7 +3,7 @@ title: Get Started Building a Remix Website with Directus
 
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image:
+image: ./remix/remix-example.webp
 category: integration
 ---
 

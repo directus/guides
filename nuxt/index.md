@@ -3,7 +3,7 @@ title: Get Started Building a Nuxt 2 Website with Directus
 
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image:
+image: ./nuxt/nuxt-example.webp
 category: integration
 ---
 

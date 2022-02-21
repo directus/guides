@@ -2,7 +2,7 @@
 title: Get Started Building a Gatsby Website with Directus
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image:
+image: ./gatsby/gatsby-example-1.webp
 category: integration
 ---
 

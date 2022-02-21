@@ -2,7 +2,7 @@
 title: Get Started Building a Sveltekit Website with Directus
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image:
+image: ./sveltekit/sveltekit-example.webp
 category: integration
 ---
 

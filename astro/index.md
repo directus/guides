@@ -1,9 +1,8 @@
 ---
 title: Get Started Building an Astro Website with Directus
-
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image:
+image: ./astro/astro-example.webp
 category: integration
 ---
 

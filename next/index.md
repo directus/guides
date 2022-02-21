@@ -2,7 +2,7 @@
 title: Get Started Building an Next.js Website with Directus
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image:
+image: ./next/next-example.webp
 category: integration
 ---
 

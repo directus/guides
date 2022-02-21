@@ -2,7 +2,7 @@
 title: Get Started Building a Vue Website with Directus
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image:
+image: ./vue/vue-example.webp
 category: integration
 ---
 

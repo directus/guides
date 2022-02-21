@@ -2,7 +2,7 @@
 title: Get Started Building an Eleventy Website with Directus
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image:
+image: eleventy/11ty-example.webp
 category: integration
 ---
 
