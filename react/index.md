@@ -2,13 +2,11 @@
 title: Get Started Building a React Website with Directus
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image: ./react/react-example.webp
+image: ./react-example.webp
 category: integration
 ---
 
 > This example will show you how to link a simple React frontend blog template to a Directus Project with a simple SQLite database containing a few blog posts.
-
-![Directus and React Example Blog](react-example-blog-20220204A.webp)
 
 [[toc]]
 

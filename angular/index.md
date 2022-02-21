@@ -2,7 +2,7 @@
 title: Get Started Building an Angular Website with Directus
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image: ./angular/angular-example.webp
+image: ./angular-example.webp
 category: integration
 ---
 

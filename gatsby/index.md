@@ -2,13 +2,11 @@
 title: Get Started Building a Gatsby Website with Directus
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image: ./gatsby/gatsby-example-1.webp
+image: ./gatsby-example-1.webp
 category: integration
 ---
 
 > This example will show you how to link a simple Gatsby frontend blog template to a Directus Project with a simple SQLite database containing a few blog posts.
-
-![Directus and Gatsby Example Blog](gatsby-example-blog-20220204A.webp)
 
 [[toc]]
 

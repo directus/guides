@@ -2,13 +2,11 @@
 title: Get Started Building an Eleventy Website with Directus
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image: eleventy/11ty-example.webp
+image: ./11ty-example.webp
 category: integration
 ---
 
 > This example will show you how to link a simple Eleventy frontend blog template to a Directus Project with a simple SQLite database containing a few blog posts.
-
-![Directus and Eleventy Example Blog](eleventy-example-blog-20220207A.webp)
 
 [[toc]]
 

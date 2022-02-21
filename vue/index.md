@@ -2,13 +2,11 @@
 title: Get Started Building a Vue Website with Directus
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image: ./vue/vue-example.webp
+image: ./vue-example.webp
 category: integration
 ---
 
 > This example will show you how to link a simple Vue frontend blog template to a Directus Project with a simple SQLite database containing a few blog posts.
-
-![Directus and Vue Example Blog](vue-example-blog-20220204A.webp)
 
 [[toc]]
 

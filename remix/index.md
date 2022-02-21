@@ -3,13 +3,11 @@ title: Get Started Building a Remix Website with Directus
 
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image: ./remix/remix-example.webp
+image: ./remix-example.webp
 category: integration
 ---
 
 > This example will show you how to link a simple Remix frontend blog template to a Directus Project with a simple SQLite database containing a few blog posts.
-
-![Directus and Remix Example Blog](remix-example-blog-20220207A.webp)
 
 [[toc]]
 

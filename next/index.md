@@ -2,13 +2,11 @@
 title: Get Started Building an Next.js Website with Directus
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image: ./next/next-example.webp
+image: ./next-example.webp
 category: integration
 ---
 
 > This example will show you how to link a simple Next.js blog template to a Directus Project with a simple SQLite database containing a few blog posts.
-
-![Directus and Next.js Example Blog](nextjs-example-blog-20220204A.webp)
 
 [[toc]]
 

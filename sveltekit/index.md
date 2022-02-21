@@ -2,13 +2,11 @@
 title: Get Started Building a Sveltekit Website with Directus
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image: ./sveltekit/sveltekit-example.webp
+image: ./sveltekit-example.webp
 category: integration
 ---
 
 > This example will show you how to link a simple SvelteKit frontend blog template to a Directus Project with a simple SQLite database containing a few blog posts.
-
-![Directus and SvelteKit Example Blog](sveltekit-example-blog-20220207A.webp)
 
 [[toc]]
 
