@@ -1,4 +1,10 @@
-# Gatsby
+---
+title: Gatsby
+date: 2022-02-07
+author: Eron Powell & Azri Kahar
+image:
+category: integration
+---
 
 > This example will show you how to link a simple Gatsby frontend blog template to a Directus Project with a simple SQLite database containing a few blog posts.
 
