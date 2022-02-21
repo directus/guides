@@ -2,7 +2,7 @@
 title: Angular
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image: ./angular-example-blog-20220207A.webp
+image: ./angular-example.png
 category: integration
 ---
 
