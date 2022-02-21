@@ -1,5 +1,5 @@
 ---
-title: Svelte
+title: Get Started Building a Svelte Website with Directus
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
 image:
@@ -60,23 +60,23 @@ Now that you have the frontend and backend linked up, let's touch on what's happ
 
 Svelte is an incrementally adoptable [framework for building webapps](https://svelte.dev/tutorial/basics) similar to React or Vue. However the difference is it _compiles on build time instead of run time_, producing highly-optimized vanilla JavaScript, smaller bundles, and better performance. Server-side rendering (SSO), routing and more is available as well with [Sveltekit](https://kit.svelte.dev/).
 
-Also, please note the Directus JavaScript SDK is pulled in under `examples > svelte > src > services > directus.js` *(find it [here](https://github.com/directus/examples/blob/main/svelte/src/services/directus.js))*. Read more about the SDK [here](https://docs.directus.io/reference/sdk/).
+Also, please note the Directus JavaScript SDK is pulled in under `examples > svelte > src > services > directus.js`. If you're interested, [see the `directus.js` file on Github](https://github.com/directus/examples/blob/main/svelte/src/services/directus.js) and read more in the [Directus SDK Documentation](https://docs.directus.io/reference/sdk/).
 
 ## Authentication
 
-Aside from the default `local` authentication mechanism, Directus also supports SSO through `oauth2`, `openid`, and `ldap`. Learn more about SSO options [here](https://docs.directus.io/configuration/config-options/#authentication) or follow the guide [here](https://docs.directus.io/configuration/sso/) for detailed instructions.
+Aside from the default `local` authentication mechanism, Directus also supports SSO through `oauth2`, `openid`, and `ldap`. To learn more about SSO options, read our [SSO Documentation](https://docs.directus.io/configuration/config-options/#authentication) or follow our guide on [how to setup SSO](https://docs.directus.io/configuration/sso/).
 
 ## Users, Roles and Permissions
 
 ![Directus Permissions](roles-and-permissions-20220204A.webp)
 
-For simplicity's sake, this Directus instance provided has [Public read permissions](https://docs.directus.io/getting-started/quickstart/#_6-set-role-public-permissions) activated for `articles` and `directus_users`. Find Permissions in your local Directus instance under `Settings > Roles and Permissions` or follow this [link](http://localhost:8055/admin/settings/roles/public).
+For simplicity's sake, this Directus instance provided has [Public read permissions](https://docs.directus.io/getting-started/quickstart/#_6-set-role-public-permissions) activated for `articles` and `directus_users`. Find Permissions in your [local Directus Instance](http://localhost:8055/admin/settings/roles/public) under `Settings > Roles and Permissions`.
 
-Additionally, any number of Roles can be created and fully configured. Permissions are completely granular. Learn more [here](https://docs.directus.io/configuration/users-roles-permissions/).
+Additionally, any number of Roles can be created and fully configured. Permissions are completely granular. Learn more about this in our documentation on [Users, Roles and Permissions](https://docs.directus.io/configuration/users-roles-permissions/).
 
 ## APIs
 
-There are two simple requests in this example worth noting. The first is in `home.svelte` [here](https://github.com/directus/examples/blob/main/svelte/src/routes/Home.svelte) and the other in `Article.svelte` [here](https://github.com/directus/examples/blob/main/svelte/src/routes/Article.svelte). However, the Directus API is exhaustive for any database linked.
+There are two simple requests in this example worth noting. The first is in `home.svelte` and the other in `Article.svelte`. If you'd like to see these, here are links to [Home.svelte](https://github.com/directus/examples/blob/main/svelte/src/routes/Home.svelte) and [Article.svelte](https://github.com/directus/examples/blob/main/svelte/src/routes/Article.svelte) on Github. However, please note that the Directus API is exhaustive for any database linked.
 
 Directus uses [Database Mirroring](https://docs.directus.io/getting-started/introduction/#database-mirroring) to dynamically generate REST endpoints and a GraphQL schema based on the connected database's architecture. This means the REST and the GraphQL APIs _will both fit any project with any database schema, out of the box_. Learn more in the [API Reference](https://docs.directus.io/reference/introduction/).
 

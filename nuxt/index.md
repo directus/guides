@@ -1,5 +1,6 @@
 ---
-title: Nuxt.js 2
+title: Get Started Building a Nuxt 2 Website with Directus
+
 date: 2022-02-07
 author: Eron Powell & Azri Kahar
 image:
@@ -58,23 +59,23 @@ Now that you have the frontend and backend linked up, let's touch on what's happ
 
 ## Nuxt 2
 
-Nuxt.js is a Vue framework that enables Static Site Generation (SSG) and Server-side Rendering (SSR). Learn more in the [official Nuxt.js docs](https://nuxtjs.org/docs/get-started/installation).
+Nuxt.js is a Vue framework that enables Static Site Generation (SSG) and Server-side Rendering (SSR). To learn more, checkout the [official Nuxt.js docs](https://nuxtjs.org/docs/get-started/installation).
 
 ## Authentication
 
-Aside from the default `local` authentication mechanism, Directus also supports SSO through `oauth2`, `openid`, and `ldap`. Learn more about SSO options [here](https://docs.directus.io/configuration/config-options/#authentication) or follow the guide [here](https://docs.directus.io/configuration/sso/) for detailed instructions.
+Aside from the default `local` authentication mechanism, Directus also supports SSO through `oauth2`, `openid`, and `ldap`. To learn more about SSO options, read our [SSO Documentation](https://docs.directus.io/configuration/config-options/#authentication) or follow our guide on [how to setup SSO](https://docs.directus.io/configuration/sso/).
 
 ## Users, Roles and Permissions
 
 ![Directus Permissions](roles-and-permissions-20220204A.webp)
 
-For simplicity's sake, this Directus instance provided has [Public read permissions](https://docs.directus.io/getting-started/quickstart/#_6-set-role-public-permissions) activated for `articles` and `directus_users`. Find Permissions in your local Directus instance under `Settings > Roles and Permissions` or follow this [link](http://localhost:8055/admin/settings/roles/public).
+For simplicity's sake, this Directus instance provided has [Public read permissions](https://docs.directus.io/getting-started/quickstart/#_6-set-role-public-permissions) activated for `articles` and `directus_users`. Find Permissions in your [local Directus Instance](http://localhost:8055/admin/settings/roles/public) under `Settings > Roles and Permissions`.
 
-Additionally, any number of Roles can be created and fully configured. Permissions are completely granular. Learn more [here](https://docs.directus.io/configuration/users-roles-permissions/).
+Additionally, any number of Roles can be created and fully configured. Permissions are completely granular. Learn more about this in our documentation on [Users, Roles and Permissions](https://docs.directus.io/configuration/users-roles-permissions/).
 
 ## APIs
 
-There are two simple requests in this example worth noting. The first is in `index.vue` [here](https://github.com/directus/examples/blob/main/nuxtjs/pages/index.vue) and the other in `_id.vue` [here](https://github.com/directus/examples/blob/main/nuxtjs/pages/articles/_id.vue). However, the Directus API is exhaustive for any database linked.
+There are two simple requests in this example worth noting. The first is in `index.vue` and the other in `_id.vue`. If you'd like to see these, here are links to the [index](https://github.com/directus/examples/blob/main/nuxtjs/pages/index.vue) and [_id](https://github.com/directus/examples/blob/main/nuxtjs/pages/articles/_id.vue) components on Github. However, please note that the Directus API is exhaustive for any database linked.
 
 Directus uses [Database Mirroring](https://docs.directus.io/getting-started/introduction/#database-mirroring) to dynamically generate REST endpoints and a GraphQL schema based on the connected database's architecture. This means the REST and the GraphQL APIs _will both fit any project with any database schema, out of the box_. Learn more in the [API Reference](https://docs.directus.io/reference/introduction/).
 
