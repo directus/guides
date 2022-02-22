@@ -1,18 +1,18 @@
 ---
-title: Get Started Building an Angular Website with Directus
-date: 2022-02-21
+title: Get Started Building a Blitz Website with Directus
+date: 2022-02-07
 author: Eron Powell & Azri Kahar
-image: ./angular-example.webp
+image: ./blitz-example.webp
 category: integration
 ---
 
-> This example will show you how to link a simple Angular frontend blog template to a Directus Project with a simple SQLite database containing a few blog posts.
+> This example will show you how to link a simple Blitz blog template to a Directus Project with a simple SQLite database containing a few blog posts.
 
 [[toc]]
 
 ## Scope and Purpose
 
-The purpose of this article is to focus on the bare basics of linking an Angular frontend to Directus, then show you where to learn about more robust authentication methods, roles & permissions configurations, and API functionalities. It is important to stress to new users that Directus is a general purpose database wrapper, _which mirrors any linked database_. No matter your data model or use-case, Directus can serve as a backend _(plus no-code admin panel)_ for any type of project and also connect to any _(or many)_ different front-ends.
+The purpose of this article is to focus on the bare basics of linking Blitz to Directus, then show you where to learn about more robust authentication methods, roles & permissions configurations, and API functionalities. It is important to stress to new users that Directus is a general purpose database wrapper, _which mirrors any linked database_. No matter your data model or use-case, Directus can serve as a backend _(plus no-code admin panel)_ for any type of project and also connect to any _(or many)_ different front-ends.
 
 Please keep in mind that this is not a demo showing _what Directus can be used for_, but rather a low variable entry-point on the path to _understanding how to do anything you want with it_.
 
@@ -37,7 +37,7 @@ This example was created for demonstration purposes and is not intended to be pr
 3. Install dependencies for this example.
 
    ```
-   cd angular
+   cd blitz
    npm install
    ```
 
@@ -47,13 +47,13 @@ This example was created for demonstration purposes and is not intended to be pr
    npm start
    ```
 
-5. Your Directus Angular example is now running at <http://localhost:4200/>.
+5. Your Directus Blitz example is now running at <http://localhost:3000/>.
 
    Now that you have the frontend and backend linked up, let's touch on what's happening in this project and where to find more sophisticated options.
 
-## Angular
+## Blitz
 
-Angular is a library primarily for building [Single-page Applications](https://angular.io/) (SPAs). [Angular Universal](https://angular.io/guide/universal) _(which is not used in this example)_ is a technology that enables Server-side Rendering (SSR) as well as prerendering.
+Blitz is a batteries-included framework that's inspired by Ruby on Rails, is built on Next.js, and features a "Zero-API" data layer abstraction that eliminates the need for REST/GraphQL. To learn more about Blitz, please see the [official Blitz documentation](https://blitzjs.com/docs/blitz-pivot).
 
 ## Authentication
 
@@ -69,7 +69,7 @@ Additionally, any number of Roles can be created and fully configured. Permissio
 
 ## APIs
 
-There are two simple requests in this example worth noting. The first is in `home.component.ts` and the other in `article.component.ts`. If you'd like to see these, here are links to the [home](https://github.com/directus/examples/blob/main/angular/src/app/pages/home/home.component.ts) and [article](https://github.com/directus/examples/blob/main/angular/src/app/pages/article/article.component.ts) components on Github. However, please note that the Directus API is exhaustive for any database linked.
+There are two simple requests in this example worth noting. The first is in `index.js` and the other in `[id].js`. If you'd like to see these, here are links to the [index.js](https://github.com/directus/examples/blob/main/blitz/app/pages/index.js) and [[id].js](https://github.com/directus/examples/blob/main/blitz/app/pages/articles/%5Bid%5D.js) components on Github. However, please note that the Directus API is exhaustive for any database linked.
 
 Directus uses [Database Mirroring](https://docs.directus.io/getting-started/introduction/#database-mirroring) to dynamically generate REST endpoints and a GraphQL schema based on the connected database's architecture. This means the REST and the GraphQL APIs _will both fit any project with any database schema, out of the box_. Learn more in the [API Reference](https://docs.directus.io/reference/introduction/).
 
