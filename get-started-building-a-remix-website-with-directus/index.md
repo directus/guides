@@ -1,27 +1,26 @@
 ---
-title: Get Started Building an Next.js Website with Directus
-date: 2022-02-07
+title: Get Started Building a Remix Website with Directus
+date: 2022-02-21
 author: Eron Powell & Azri Kahar
-image: ./next-example.webp
+image: ./remix-example.webp
 category: integration
 ---
 
-> This example will show you how to link a simple Next.js blog template to a Directus Project with a simple SQLite database containing a few blog posts.
+> This example will show you how to link a simple Remix frontend blog template to a Directus Project with a simple SQLite database containing a few blog posts.
 
 [[toc]]
 
 ## Scope and Purpose
 
-The purpose of this article is to focus on the bare basics of linking a Next.js frontend to Directus, then show you where to learn about more robust authentication methods, roles & permissions configurations, and API functionalities. It is important to stress to new users that Directus is a general purpose database wrapper, _which mirrors any linked database_. No matter your data model or use-case, Directus can serve as a backend *(plus no-code admin panel)* for any type of project and also connect to any *(or many)* different front-ends.
+The purpose of this article is to focus on the bare basics of linking a Remix frontend to Directus, then show you where to learn about more robust authentication methods, roles & permissions configurations, and API functionalities. It is important to stress to new users that Directus is a general purpose database wrapper, _which mirrors any linked database_. No matter your data model or use-case, Directus can serve as a backend _(plus no-code admin panel)_ for any type of project and also connect to any _(or many)_ different front-ends.
 
 Please keep in mind that this is not a demo showing _what Directus can be used for_, but rather a low variable entry-point on the path to _understanding how to do anything you want with it_.
 
 ::: warning Demonstration purposes only
 
- This example was created for demonstration purposes and is not intended to be production ready, but PRs that address this and any other issues are always welcome! See [Contribution Guidelines](https://docs.directus.io/contributing/introduction/).
+This example was created for demonstration purposes and is not intended to be production ready, but PRs that address this and any other issues are always welcome! See [Contribution Guidelines](https://docs.directus.io/contributing/introduction/).
 
 :::
-
 
 ## Setup
 
@@ -38,25 +37,34 @@ Every frontend template in the `examples` repo references the `shared` folder. S
 3. Install dependencies for this example.
 
 ```
-cd nextjs
+cd remix
 npm install
 ```
 
-4. Create a `.env` file for this Next.js template by copying and pasting the provided `.env.example` file. Nothing will need to be changed in the copied `.env` file since the URL, username, and password are all set.
+4. Create a `.env` file for this Remix template by copying and pasting the provided `.env.example` file. Nothing will need to be changed in the copied `.env` file.
 
 5. Start the development server.
 
 ```
 npm run dev
+
+# Run this if you are on Windows instead
+# This is currently a known bug and it is tracked here:
+# https://github.com/remix-run/remix/issues/914
+
+npm run dev:windows
 ```
 
-6. Your Directus Next.js example is now running at <http://localhost:3000>.
+6. Your Directus Remix example is now running at <http://localhost:8080>.
 
 Now that you have the frontend and backend linked up, let's touch on what's happening in this project and where to find more sophisticated options.
 
-## Next.js
+## Remix
 
-Next.js is a React framework that enables Static Site Generation (SSG), Server-side Rendering (SSR), Client-side Rendering (CSR), _or all three at the same time_. To learn more, checkout the official [Next.js documentation](https://nextjs.org/docs/basic-features/pages).
+Remix is a React framework for Server-side Rendering (SSR) composed of a compiler, server side HTTP handler, server framework and browser framework.
+Read the [official Remix documentation](https://remix.run/docs/en/v1/pages/technical-explanation) to learn more.
+
+Also, please note the Directus JavaScript SDK is pulled in under `remix > app > lib > directus.js`. If you're interested, [see the `directus.js` file on Github](https://github.com/directus/examples/blob/main/remix/app/lib/directus.js) and read more in the [Directus SDK Documentation](https://docs.directus.io/reference/sdk/).
 
 ## Authentication
 
@@ -72,7 +80,7 @@ Additionally, any number of Roles can be created and fully configured. Permissio
 
 ## APIs
 
-There are two simple requests in this example worth noting. The first is in `index.jsx` and the other in `[id].jsx`. If you'd like to see these, here are links to the [index.jsx](https://github.com/directus/examples/blob/main/nextjs/pages/index.jsx) and [[id].jsx](https://github.com/directus/examples/blob/main/nextjs/pages/articles/%5Bid%5D.jsx) components on Github. However, please note that the Directus API is exhaustive for any database linked.
+There are two simple requests in this example worth noting. The first is in `index.jsx` and the other in `$id.jsx`. If you'd like to see these, here are links to the [index](https://github.com/directus/examples/blob/main/remix/app/routes/index.jsx) and [$id](https://github.com/directus/examples/blob/main/remix/app/routes/articles/%24id.jsx) components on Github. However, please note that the Directus API is exhaustive for any database linked.
 
 Directus uses [Database Mirroring](https://docs.directus.io/getting-started/introduction/#database-mirroring) to dynamically generate REST endpoints and a GraphQL schema based on the connected database's architecture. This means the REST and the GraphQL APIs _will both fit any project with any database schema, out of the box_. Learn more in the [API Reference](https://docs.directus.io/reference/introduction/).
 
@@ -80,4 +88,4 @@ Directus uses [Database Mirroring](https://docs.directus.io/getting-started/intr
 
 Looking for technical support for your non-enterprise project? Please visit the [Directus Discord Community](https://directus.chat/).
 
-Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/) or [contact sales](https://directus.io/contact/).
+Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/) or [contact our team](https://directus.io/contact/).

@@ -1,7 +1,6 @@
 ---
 title: Get Started Building a Nuxt 2 Website with Directus
-
-date: 2022-02-07
+date: 2022-02-21
 author: Eron Powell & Azri Kahar
 image: ./nuxt-example.webp
 category: integration
@@ -13,16 +12,15 @@ category: integration
 
 ## Scope and Purpose
 
-The purpose of this article is to focus on the bare basics of linking a Nuxt 2 frontend to Directus, then show you where to learn about more robust authentication methods, roles & permissions configurations, and API functionalities. It is important to stress to new users that Directus is a general purpose database wrapper, _which mirrors any linked database_. No matter your data model or use-case, Directus can serve as a backend *(plus no-code admin panel)* for any type of project and also connect to any *(or many)* different front-ends.
+The purpose of this article is to focus on the bare basics of linking a Nuxt 2 frontend to Directus, then show you where to learn about more robust authentication methods, roles & permissions configurations, and API functionalities. It is important to stress to new users that Directus is a general purpose database wrapper, _which mirrors any linked database_. No matter your data model or use-case, Directus can serve as a backend _(plus no-code admin panel)_ for any type of project and also connect to any _(or many)_ different front-ends.
 
 Please keep in mind that this is not a demo showing _what Directus can be used for_, but rather a low variable entry-point on the path to _understanding how to do anything you want with it_.
 
 ::: warning Demonstration purposes only
 
- This example was created for demonstration purposes and is not intended to be production ready, but PRs that address this and any other issues are always welcome! See [Contribution Guidelines](https://docs.directus.io/contributing/introduction/).
+This example was created for demonstration purposes and is not intended to be production ready, but PRs that address this and any other issues are always welcome! See [Contribution Guidelines](https://docs.directus.io/contributing/introduction/).
 
 :::
-
 
 ## Setup
 
@@ -73,7 +71,7 @@ Additionally, any number of Roles can be created and fully configured. Permissio
 
 ## APIs
 
-There are two simple requests in this example worth noting. The first is in `index.vue` and the other in `_id.vue`. If you'd like to see these, here are links to the [index](https://github.com/directus/examples/blob/main/nuxtjs/pages/index.vue) and [_id](https://github.com/directus/examples/blob/main/nuxtjs/pages/articles/_id.vue) components on Github. However, please note that the Directus API is exhaustive for any database linked.
+There are two simple requests in this example worth noting. The first is in `index.vue` and the other in `_id.vue`. If you'd like to see these, here are links to the [index](https://github.com/directus/examples/blob/main/nuxtjs/pages/index.vue) and [\_id](https://github.com/directus/examples/blob/main/nuxtjs/pages/articles/_id.vue) components on Github. However, please note that the Directus API is exhaustive for any database linked.
 
 Directus uses [Database Mirroring](https://docs.directus.io/getting-started/introduction/#database-mirroring) to dynamically generate REST endpoints and a GraphQL schema based on the connected database's architecture. This means the REST and the GraphQL APIs _will both fit any project with any database schema, out of the box_. Learn more in the [API Reference](https://docs.directus.io/reference/introduction/).
 

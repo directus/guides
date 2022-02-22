@@ -1,6 +1,6 @@
 ---
 title: Get Started Building a React Website with Directus
-date: 2022-02-07
+date: 2022-02-21
 author: Eron Powell & Azri Kahar
 image: ./react-example.webp
 category: integration
@@ -12,16 +12,15 @@ category: integration
 
 ## Scope and Purpose
 
-The purpose of this article is to focus on the bare basics of linking a React frontend to Directus, then show you where to learn about more robust authentication methods, roles & permissions configurations, and API functionalities. It is important to stress to new users that Directus is a general purpose database wrapper, _which mirrors any linked database_. No matter your data model or use-case, Directus can serve as a backend *(plus no-code admin panel)* for any type of project and also connect to any *(or many)* different front-ends.
+The purpose of this article is to focus on the bare basics of linking a React frontend to Directus, then show you where to learn about more robust authentication methods, roles & permissions configurations, and API functionalities. It is important to stress to new users that Directus is a general purpose database wrapper, _which mirrors any linked database_. No matter your data model or use-case, Directus can serve as a backend _(plus no-code admin panel)_ for any type of project and also connect to any _(or many)_ different front-ends.
 
 Please keep in mind that this is not a demo showing _what Directus can be used for_, but rather a low variable entry-point on the path to _understanding how to do anything you want with it_.
 
 ::: warning Demonstration purposes only
 
- This example was created for demonstration purposes and is not intended to be production ready, but PRs that address this and any other issues are always welcome! See [Contribution Guidelines](https://docs.directus.io/contributing/introduction/).
+This example was created for demonstration purposes and is not intended to be production ready, but PRs that address this and any other issues are always welcome! See [Contribution Guidelines](https://docs.directus.io/contributing/introduction/).
 
 :::
-
 
 ## Setup
 

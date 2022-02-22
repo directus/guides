@@ -1,6 +1,6 @@
 ---
 title: Get Started Building a Vue Website with Directus
-date: 2022-02-07
+date: 2022-02-21
 author: Eron Powell & Azri Kahar
 image: ./vue-example.webp
 category: integration
@@ -12,16 +12,15 @@ category: integration
 
 ## Scope and Purpose
 
-The purpose of this article is to focus on the bare basics of linking a Vue frontend to Directus, then show you where to learn about more robust authentication methods, roles & permissions configurations, and API functionalities. It is important to stress to new users that Directus is a general purpose database wrapper, _which mirrors any linked database_. No matter your data model or use-case, Directus can serve as a backend *(plus no-code admin panel)* for any type of project and also connect to any *(or many)* different front-ends.
+The purpose of this article is to focus on the bare basics of linking a Vue frontend to Directus, then show you where to learn about more robust authentication methods, roles & permissions configurations, and API functionalities. It is important to stress to new users that Directus is a general purpose database wrapper, _which mirrors any linked database_. No matter your data model or use-case, Directus can serve as a backend _(plus no-code admin panel)_ for any type of project and also connect to any _(or many)_ different front-ends.
 
 Please keep in mind that this is not a demo showing _what Directus can be used for_, but rather a low variable entry-point on the path to _understanding how to do anything you want with it_.
 
 ::: warning Demonstration purposes only
 
- This example was created for demonstration purposes and is not intended to be production ready, but PRs that address this and any other issues are always welcome! See [Contribution Guidelines](https://docs.directus.io/contributing/introduction/).
+This example was created for demonstration purposes and is not intended to be production ready, but PRs that address this and any other issues are always welcome! See [Contribution Guidelines](https://docs.directus.io/contributing/introduction/).
 
 :::
-
 
 ## Setup
 
@@ -67,7 +66,6 @@ Aside from the default `local` authentication mechanism, Directus also supports 
 ## Users, Roles and Permissions
 
 ![Directus Permissions](roles-and-permissions-20220204A.webp)
-
 
 For simplicity's sake, this Directus instance provided has [Public read permissions](https://docs.directus.io/getting-started/quickstart/#_6-set-role-public-permissions) activated for `articles` and `directus_users`. Find Permissions in your [local Directus Instance](http://localhost:8055/admin/settings/roles/public) under `Settings > Roles and Permissions`.
 

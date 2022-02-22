@@ -1,6 +1,6 @@
 ---
 title: Get Started Building a Gatsby Website with Directus
-date: 2022-02-07
+date: 2022-02-21
 author: Eron Powell & Azri Kahar
 image: ./gatsby-example-1.webp
 category: integration
@@ -12,16 +12,15 @@ category: integration
 
 ## Scope and Purpose
 
-The purpose of this article is to focus on the bare basics of linking a Gatsby frontend to Directus, then show you where to learn about more robust authentication methods, roles & permissions configurations, and API functionalities. It is important to stress to new users that Directus is a general purpose database wrapper, _which mirrors any linked database_. No matter your data model or use-case, Directus can serve as a backend *(plus no-code admin panel)* for any type of project and also connect to any *(or many)* different front-ends.
+The purpose of this article is to focus on the bare basics of linking a Gatsby frontend to Directus, then show you where to learn about more robust authentication methods, roles & permissions configurations, and API functionalities. It is important to stress to new users that Directus is a general purpose database wrapper, _which mirrors any linked database_. No matter your data model or use-case, Directus can serve as a backend _(plus no-code admin panel)_ for any type of project and also connect to any _(or many)_ different front-ends.
 
 Please keep in mind that this is not a demo showing _what Directus can be used for_, but rather a low variable entry-point on the path to _understanding how to do anything you want with it_.
 
 ::: warning Demonstration purposes only
 
- This example was created for demonstration purposes and is not intended to be production ready, but PRs that address this and any other issues are always welcome! See [Contribution Guidelines](https://docs.directus.io/contributing/introduction/).
+This example was created for demonstration purposes and is not intended to be production ready, but PRs that address this and any other issues are always welcome! See [Contribution Guidelines](https://docs.directus.io/contributing/introduction/).
 
 :::
-
 
 ## Setup
 
@@ -58,7 +57,7 @@ Now that you have the frontend and backend linked up, let's touch on what's happ
 
 Gatsby is a react-based Static Site Generator (SSG), which is the [rendering option](https://www.gatsbyjs.com/docs/conceptual/rendering-options/#what-is-a-rendering-option) used here. But starting with Gatsby 4, Deferred Static Generation (DSG) and Server-side Rendering (SSR) are supported as well. To learn more, see the documentation on [Gatsby's build process](https://www.gatsbyjs.com/docs/conceptual/overview-of-the-gatsby-build-process/).
 
-The provided Gatsby instance uses the official `gatsby-source-directus` [plugin](https://www.gatsbyjs.com/docs/plugins/) to pull data in from the Directus API. You can find this project's [config file](https://github.com/directus/examples/blob/main/gatsby/gatsby-config.js) under `examples > gatsby > gatsby-config.js`. To learn more, see the [Gatsby  Directus plugin documentation](https://www.gatsbyjs.com/plugins/@directus/gatsby-source-directus/).
+The provided Gatsby instance uses the official `gatsby-source-directus` [plugin](https://www.gatsbyjs.com/docs/plugins/) to pull data in from the Directus API. You can find this project's [config file](https://github.com/directus/examples/blob/main/gatsby/gatsby-config.js) under `examples > gatsby > gatsby-config.js`. To learn more, see the [Gatsby Directus plugin documentation](https://www.gatsbyjs.com/plugins/@directus/gatsby-source-directus/).
 
 ## Authentication
 
