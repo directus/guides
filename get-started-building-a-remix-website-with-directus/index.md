@@ -72,7 +72,7 @@ Aside from the default `local` authentication mechanism, Directus also supports 
 
 ## Users, Roles and Permissions
 
-![Directus Permissions](roles-and-permissions-20220204A.webp)
+![Directus Permissions](roles-and-permissions-20220222A.webp)
 
 For simplicity's sake, this Directus instance provided has [Public read permissions](https://docs.directus.io/getting-started/quickstart/#_6-set-role-public-permissions) activated for `articles` and `directus_users`. Find Permissions in your [local Directus Instance](http://localhost:8055/admin/settings/roles/public) under `Settings > Roles and Permissions`.
 
