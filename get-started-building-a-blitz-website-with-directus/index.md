@@ -1,6 +1,6 @@
 ---
 title: Get Started Building a Blitz Website with Directus
-date: 2022-02-07
+date: 2022-02-21
 author: Eron Powell & Azri Kahar
 image: ./blitz-example.webp
 category: integration
@@ -44,7 +44,7 @@ This example was created for demonstration purposes and is not intended to be pr
 4. Start the development server.
 
    ```
-   npm start
+   npm run dev
    ```
 
 5. Your Directus Blitz example is now running at <http://localhost:3000/>.
@@ -53,7 +53,7 @@ This example was created for demonstration purposes and is not intended to be pr
 
 ## Blitz
 
-Blitz is a batteries-included framework that's inspired by Ruby on Rails, is built on Next.js, and features a "Zero-API" data layer abstraction that eliminates the need for REST/GraphQL. To learn more about Blitz, please see the [official Blitz documentation](https://blitzjs.com/docs/blitz-pivot).
+Blitz is a batteries-included React framework that is inspired by Ruby on Rails, built on Next.js, and features a "Zero-API" data layer abstraction that eliminates the need for REST/GraphQL. To learn more about Blitz, please see the [official Blitz documentation](https://blitzjs.com/docs/blitz-pivot).
 
 ## Authentication
 
@@ -77,4 +77,4 @@ Directus uses [Database Mirroring](https://docs.directus.io/getting-started/intr
 
 Looking for technical support for your non-enterprise project? Please visit the [Directus Discord Community](https://directus.chat/).
 
-Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/) or [contact our team](https://directus.io/contact/).
+Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/).
