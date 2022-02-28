@@ -55,9 +55,9 @@ Now that you have the frontend and backend linked up, let's touch on what's happ
 
 ## SvelteKit
 
-SvelteKit is an [framework for Svelte](https://kit.svelte.dev/) that enables Server-side rendering (SSO), routing and more.
+SvelteKit is a [framework for Svelte](https://kit.svelte.dev/) that enables Server-side rendering (SSO), routing and more.
 
-Also, please note the Directus JavaScript SDK is pulled in under `examples > sveltekit > src > lib > client.js > directus.js`. If you're interested, [see the `directus.js` file on Github](https://github.com/directus/examples/blob/main/sveltekit/src/lib/client.js) and read more in the [Directus SDK Documentation](https://docs.directus.io/reference/sdk/).
+Also, please note the Directus JavaScript SDK is pulled in under `examples > sveltekit > src > lib > client.js`. If you're interested, [see the `client.js` file on Github](https://github.com/directus/examples/blob/main/sveltekit/src/lib/client.js) and read more in the [Directus SDK Documentation](https://docs.directus.io/reference/sdk/).
 
 ## Authentication
 
