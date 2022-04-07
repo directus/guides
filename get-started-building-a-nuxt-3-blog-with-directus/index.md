@@ -81,7 +81,7 @@ And a textarea field: `content` (type string **required**) - Article content.
 
 ![image 3](3.webp)
 
-### Configure the directus permissions 🛑
+### Configure the Directus permissions 🛑
 
 Add the permission to see all items to the public role in the just created `blog collection`.
 
