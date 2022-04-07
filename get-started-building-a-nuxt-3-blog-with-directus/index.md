@@ -95,7 +95,7 @@ Add the permission to see all items to the public role in the just created `blog
 
 Delete the file `app.vue`, and create a new file `pages/index.vue`.
 
-**This is our new index page/home page.**
+**This is our new homepage.**
 
 Add the script to the page
 
