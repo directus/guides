@@ -58,7 +58,7 @@ import { defineNuxtConfig } from "nuxt3";
 export default defineNuxtConfig({
 	modules: ["nuxt-directus", "@nuxtjs/tailwindcss"],
 	directus: {
-		url: "my-url",
+		url: "https://<my-project-slug>.directus.app",
 	},
 });
 ```
