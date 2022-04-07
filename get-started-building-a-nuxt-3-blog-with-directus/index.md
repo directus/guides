@@ -99,7 +99,7 @@ Delete the file `app.vue`, and create a new file `pages/index.vue`.
 
 Add the script to the page
 
-```ts
+```html
 <script setup>
 const { getItems } = useDirectusItems();
 
