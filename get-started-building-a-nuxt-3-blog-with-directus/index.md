@@ -104,7 +104,7 @@ Add the script to the page
 const { getItems } = useDirectusItems();
 
 const posts = await getItems({ collection: "blog" });
-</script>f
+</script>
 ```
 
 Now the page fetches the Blog collection items from your Directus server.
