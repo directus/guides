@@ -65,13 +65,13 @@ export default defineNuxtConfig({
 
 ### Create a collection in the Directus admin dashboard 📄
 
-![image 1](1.webp)
+![Creating a Directus collection](creating-a-collection.webp)
 
 We call this collection `blog`, we can add an ID by selecting Type `Generated UUID`. Now, we check the box `date_created` to have a date for the blog post.
 
 ### Create two new fields:
 
-![image 2](2.webp)
+![Configure the Directus model](configure-directus-model.webp)
 
 Input field: `title` (type string **required**) - Title of the Blog article.
 Input field: `short_content` (type string **required**) - Short description of the article content.
@@ -79,13 +79,13 @@ And a textarea field: `content` (type string **required**) - Article content.
 
 ### Our blog data model should look like this:
 
-![image 3](3.webp)
+![Custom fields](create-custom-fields.webp)
 
 ### Configure the Directus permissions 🛑
 
 Add the permission to see all items to the public role in the just created `blog collection`.
 
-![image 4](4.webp)
+![Update roles & permissions](update-roles-and-permissions.webp)
 
 ### Go to your collection and create example items.
 
@@ -134,7 +134,7 @@ Create the page content:
 </template>
 ```
 
-![image 5](5.webp)
+![Home Preview](homepage-preview.webp)
 
 Now all your blog posts will be displayed on the page, if you click on the title you will be redirect to a blank page, to fix this we create a dynamic page.
 
@@ -162,7 +162,7 @@ if (!post) throwError("No article found, 404");
 
 If you click on the title of an article you will be redirected to a dynamic page, which gets the id and fetches the corresponding article and renders it.
 
-![image 6](6.webp)
+![Slug page Preview](slug-page-preview.webp)
 
 **We are finished!** ✨
 
