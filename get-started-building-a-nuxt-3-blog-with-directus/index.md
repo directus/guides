@@ -169,4 +169,4 @@ If you click on the title of an article you will be redirected to a dynamic page
 We created a simple and minimalistic blog using Nuxt 3 and Directus. The design can be customized at any time, this guide should only show step-by-step how to build a blog. TailwindCSS did a lot of the design work for us, the nuxt-directus module gives us a quick and easy solution to access our Directus server.
 
 If you have questions feel free to ask on the [Nuxt Discord Server](https://discord.gg/zubPXvtspT) or [Directus Discord Server](https://directus.chat)
-You can find the code here: https://github.com/intevel/nuxt-directus/examples/nuxt3-directus-blog/
+You can find the code here: https://github.com/directus/examples/tree/main/nuxt3/nuxt3-directus-blog
