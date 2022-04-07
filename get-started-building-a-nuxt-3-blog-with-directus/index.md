@@ -32,7 +32,7 @@ This created your Nuxt 3 application 💚.
 
 ### 2. Create your Directus application [here](https://directus.cloud/login)
 
-### 3. Install the directus module & a CSS framework. We use TailwindCSS in this guide.
+### 3. Install the Directus module & a CSS framework. We use TailwindCSS in this guide.
 
 ```bash
 npm install nuxt-directus @nuxtjs/tailwindcss
