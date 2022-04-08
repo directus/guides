@@ -55,7 +55,7 @@ Now that you have the frontend and backend linked up, let's touch on what's happ
 
 ## Svelte
 
-Svelte is an incrementally adoptable [framework for building webapps](https://svelte.dev/tutorial/basics) similar to React or Vue. However the difference is it _compiles on build time instead of run time_, producing highly-optimized vanilla JavaScript, smaller bundles, and better performance. Server-side rendering (SSO), routing and more is available as well with [Sveltekit](https://kit.svelte.dev/).
+Svelte is an incrementally adoptable [framework for building webapps](https://svelte.dev/tutorial/basics) similar to React or Vue. However the difference is it _compiles on build time instead of run time_, producing highly-optimized vanilla JavaScript, smaller bundles, and better performance. Server-side rendering (SSR), routing and more is available as well with [Sveltekit](https://kit.svelte.dev/).
 
 Also, please note the Directus JavaScript SDK is pulled in under `examples > svelte > src > services > directus.js`. If you're interested, [see the `directus.js` file on Github](https://github.com/directus/examples/blob/main/svelte/src/services/directus.js) and read more in the [Directus SDK Documentation](https://docs.directus.io/reference/sdk/).
 
