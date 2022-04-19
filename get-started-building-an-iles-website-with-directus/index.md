@@ -1,7 +1,7 @@
 ---
 title: Get Started Building an Iles Website with Directus
 date: 2022-04-22
-author: Eron Powell & Azri Kahar
+author: Eron Powell & Máximo Mussini
 image: ./iles-example.webp
 category: integration
 ---
