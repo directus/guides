@@ -71,7 +71,7 @@ Additionally, any number of Roles can be created and fully configured. Permissio
 
 ## APIs
 
-There are two simple requests in this example worth noting. The first is in `index.vue` and the other in `_id.vue`. If you'd like to see these, here are links to the [index](https://github.com/directus/examples/blob/main/nuxtjs/pages/index.vue) and [\_id](https://github.com/directus/examples/blob/main/nuxtjs/pages/articles/_id.vue) components on Github. However, please note that the Directus API is exhaustive for any database linked.
+There are two simple requests in this example worth noting. The first is in `index.vue` and the other in `_id.vue`. If you'd like to see these, here are links to the [index](https://github.com/directus/examples/blob/main/nuxtjs/pages/index.vue) and [\_id](https://github.com/directus/examples/blob/main/nuxtjs/pages/articles/_id.vue) components on GitHub. However, please note that the Directus API is exhaustive for any database linked.
 
 Directus uses [Database Mirroring](https://docs.directus.io/getting-started/introduction/#database-mirroring) to dynamically generate REST endpoints and a GraphQL schema based on the connected database's architecture. This means the REST and the GraphQL APIs _will both fit any project with any database schema, out of the box_. Learn more in the [API Reference](https://docs.directus.io/reference/introduction/).
 
@@ -79,4 +79,4 @@ Directus uses [Database Mirroring](https://docs.directus.io/getting-started/intr
 
 Looking for technical support for your non-enterprise project? Please visit the [Directus Discord Community](https://directus.chat/).
 
-Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/) or [contact sales](https://directus.io/contact/).
+Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/).

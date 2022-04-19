@@ -57,7 +57,7 @@ Now that you have the frontend and backend linked up, let's touch on what's happ
 
 Svelte is an incrementally adoptable [framework for building webapps](https://svelte.dev/tutorial/basics) similar to React or Vue. However the difference is it _compiles on build time instead of run time_, producing highly-optimized vanilla JavaScript, smaller bundles, and better performance. Server-side rendering (SSR), routing and more is available as well with [Sveltekit](https://kit.svelte.dev/).
 
-Also, please note the Directus JavaScript SDK is pulled in under `examples > svelte > src > services > directus.js`. If you're interested, [see the `directus.js` file on Github](https://github.com/directus/examples/blob/main/svelte/src/services/directus.js) and read more in the [Directus SDK Documentation](https://docs.directus.io/reference/sdk/).
+Also, please note the Directus JavaScript SDK is pulled in under `examples > svelte > src > services > directus.js`. If you're interested, [see the `directus.js` file on GitHub](https://github.com/directus/examples/blob/main/svelte/src/services/directus.js) and read more in the [Directus SDK Documentation](https://docs.directus.io/reference/sdk/).
 
 ## Authentication
 
@@ -73,7 +73,7 @@ Additionally, any number of Roles can be created and fully configured. Permissio
 
 ## APIs
 
-There are two simple requests in this example worth noting. The first is in `home.svelte` and the other in `Article.svelte`. If you'd like to see these, here are links to [Home.svelte](https://github.com/directus/examples/blob/main/svelte/src/routes/Home.svelte) and [Article.svelte](https://github.com/directus/examples/blob/main/svelte/src/routes/Article.svelte) on Github. However, please note that the Directus API is exhaustive for any database linked.
+There are two simple requests in this example worth noting. The first is in `home.svelte` and the other in `Article.svelte`. If you'd like to see these, here are links to [Home.svelte](https://github.com/directus/examples/blob/main/svelte/src/routes/Home.svelte) and [Article.svelte](https://github.com/directus/examples/blob/main/svelte/src/routes/Article.svelte) on GitHub. However, please note that the Directus API is exhaustive for any database linked.
 
 Directus uses [Database Mirroring](https://docs.directus.io/getting-started/introduction/#database-mirroring) to dynamically generate REST endpoints and a GraphQL schema based on the connected database's architecture. This means the REST and the GraphQL APIs _will both fit any project with any database schema, out of the box_. Learn more in the [API Reference](https://docs.directus.io/reference/introduction/).
 
@@ -81,4 +81,4 @@ Directus uses [Database Mirroring](https://docs.directus.io/getting-started/intr
 
 Looking for technical support for your non-enterprise project? Please visit the [Directus Discord Community](https://directus.chat/).
 
-Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/) or [contact our team](https://directus.io/contact/).
+Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/).

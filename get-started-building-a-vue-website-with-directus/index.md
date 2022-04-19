@@ -57,7 +57,7 @@ Now that you have the frontend and backend linked up, let's touch on what's happ
 
 Vue is an [incrementally adoptable library](https://v3.vuejs.org/guide/introduction.html#what-is-vue-js) for extending your existing site as well as building Single-page Applications (SPAs). Some frameworks built on Vue also allow Server Side rendering and static site generation (e.g. Nuxt.js). We have also provided examples alongside this one for [Nuxt.js](https://github.com/directus/examples/tree/main/nuxtjs).
 
-Also, please note the Directus JavaScript SDK is pulled in under ``examples > vue > src > services > directus.js`. If you're interested, [see the `directus.js` file on Github](https://github.com/directus/examples/blob/main/vue/src/services/directus.js) and read more in the [Directus SDK Documentation](https://docs.directus.io/reference/sdk/).
+Also, please note the Directus JavaScript SDK is pulled in under `examples > vue > src > services > directus.js`. If you're interested, [see the `directus.js` file on GitHub](https://github.com/directus/examples/blob/main/vue/src/services/directus.js) and read more in the [Directus SDK Documentation](https://docs.directus.io/reference/sdk/).
 
 ## Authentication
 
@@ -73,7 +73,7 @@ Additionally, any number of Roles can be created and fully configured. Permissio
 
 ## APIs
 
-There are two simple requests in this example worth noting. The first is in `Home.vue` and the other in `Article.vue`. If you'd like to see these, here are links to the [Home](https://github.com/directus/examples/blob/main/vue/src/views/Home.vue) and [Article](https://github.com/directus/examples/blob/main/vue/src/views/Article.vue) components on Github. However, please note that the Directus API is exhaustive for any database linked.
+There are two simple requests in this example worth noting. The first is in `Home.vue` and the other in `Article.vue`. If you'd like to see these, here are links to the [Home](https://github.com/directus/examples/blob/main/vue/src/views/Home.vue) and [Article](https://github.com/directus/examples/blob/main/vue/src/views/Article.vue) components on GitHub. However, please note that the Directus API is exhaustive for any database linked.
 
 Directus uses [Database Mirroring](https://docs.directus.io/getting-started/introduction/#database-mirroring) to dynamically generate REST endpoints and a GraphQL schema based on the connected database's architecture. This means the REST and the GraphQL APIs _will both fit any project with any database schema, out of the box_. Learn more in the [API Reference](https://docs.directus.io/reference/introduction/).
 
@@ -81,4 +81,4 @@ Directus uses [Database Mirroring](https://docs.directus.io/getting-started/intr
 
 Looking for technical support for your non-enterprise project? Please visit the [Directus Discord Community](https://directus.chat/).
 
-Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/) or [contact our team](https://directus.io/contact/).
+Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/).

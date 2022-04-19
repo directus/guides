@@ -57,7 +57,7 @@ Now that you have the frontend and backend linked up, let's touch on what's happ
 
 SvelteKit is a [framework for Svelte](https://kit.svelte.dev/) that enables Server-side rendering (SSO), routing and more.
 
-Also, please note the Directus JavaScript SDK is pulled in under `examples > sveltekit > src > lib > client.js`. If you're interested, [see the `client.js` file on Github](https://github.com/directus/examples/blob/main/sveltekit/src/lib/client.js) and read more in the [Directus SDK Documentation](https://docs.directus.io/reference/sdk/).
+Also, please note the Directus JavaScript SDK is pulled in under `examples > sveltekit > src > lib > client.js`. If you're interested, [see the `client.js` file on GitHub](https://github.com/directus/examples/blob/main/sveltekit/src/lib/client.js) and read more in the [Directus SDK Documentation](https://docs.directus.io/reference/sdk/).
 
 ## Authentication
 
@@ -73,7 +73,7 @@ Additionally, any number of Roles can be created and fully configured. Permissio
 
 ## APIs
 
-There are two simple requests in this example worth noting. The first is in `index.json.js` and the other in `[id].json.js`. If you'd like to see these, here are links to [index.json.js](https://github.com/directus/examples/blob/main/sveltekit/src/routes/index.json.js) and [$id.json.js](https://github.com/directus/examples/blob/main/sveltekit/src/routes/articles/%5Bid%5D.json.js) on Github. However, please note that the Directus API is exhaustive for any database linked.
+There are two simple requests in this example worth noting. The first is in `index.json.js` and the other in `[id].json.js`. If you'd like to see these, here are links to [index.json.js](https://github.com/directus/examples/blob/main/sveltekit/src/routes/index.json.js) and [$id.json.js](https://github.com/directus/examples/blob/main/sveltekit/src/routes/articles/%5Bid%5D.json.js) on GitHub. However, please note that the Directus API is exhaustive for any database linked.
 
 Directus uses [Database Mirroring](https://docs.directus.io/getting-started/introduction/#database-mirroring) to dynamically generate REST endpoints and a GraphQL schema based on the connected database's architecture. This means the REST and the GraphQL APIs _will both fit any project with any database schema, out of the box_. Learn more in the [API Reference](https://docs.directus.io/reference/introduction/).
 
@@ -81,4 +81,4 @@ Directus uses [Database Mirroring](https://docs.directus.io/getting-started/intr
 
 Looking for technical support for your non-enterprise project? Please visit the [Directus Discord Community](https://directus.chat/).
 
-Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/) or [contact our team](https://directus.io/contact/).
+Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/).
