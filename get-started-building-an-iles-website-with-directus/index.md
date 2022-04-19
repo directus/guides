@@ -57,7 +57,7 @@ Now that you have the frontend and backend linked up, let's touch on what's happ
 
  [Iles](https://iles.pages.dev/guide/introduction) is a static-site generator (SSG) that provides great support for partial hydration. Use Vue and MDX to build your website, while enjoying the smooth development experience provided by Vite.js.
 
-Also, please note the Directus JavaScript SDK is pulled in under `examples > iles > src > login > directus.ts` _(find it [here](https://github.com/directus/examples/blob/main/iles/src/logic/directus.ts))_. If you'd like to learn more, checkout the [SDK documentation](https://docs.directus.io/reference/sdk/).
+Also, please note the Directus JavaScript SDK is pulled in under `examples > iles > src > logic > directus.ts` _(find it [here](https://github.com/directus/examples/blob/main/iles/src/logic/directus.ts))_. If you'd like to learn more, checkout the [SDK documentation](https://docs.directus.io/reference/sdk/).
 
 ## Authentication
 
