@@ -73,7 +73,7 @@ Additionally, any number of Roles can be created and fully configured. Permissio
 
 ## APIs
 
-There is one simple request in this example worth noting, in `article.js`. If you'd like to see, here is a link to [article.js](https://github.com/directus/examples/blob/main/iles/src/logic/article.ts) on GitHub. However, please note that the Directus API is exhaustive for any database linked.
+There is one simple request in this example worth noting, in `article.ts`. If you'd like to see, here is a link to [article.ts](https://github.com/directus/examples/blob/main/iles/src/logic/article.ts) on GitHub. However, please note that the Directus API is exhaustive for any database linked.
 
 Directus uses [Database Mirroring](https://docs.directus.io/getting-started/introduction/#database-mirroring) to dynamically generate REST endpoints and a GraphQL schema based on the connected database's architecture. This means the REST and the GraphQL APIs _will both fit any project with any database schema, out of the box_. Learn more in the [API Reference](https://docs.directus.io/reference/introduction/).
 
