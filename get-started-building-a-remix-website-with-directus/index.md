@@ -47,13 +47,19 @@ npm install
 
 ```
 npm run dev
+``` 
 
-# Run this if you are on Windows instead
-# This is currently a known bug and it is tracked here:
-# https://github.com/remix-run/remix/issues/914
+Run this if you are on Windows instead.
 
+```
 npm run dev:windows
 ```
+:::tip
+
+This is currently a known bug and it is tracked here:\
+https://github.com/remix-run/remix/issues/914
+
+:::
 
 6. Your Directus Remix example is now running at <http://localhost:8080>.
 
@@ -88,4 +94,4 @@ Directus uses [Database Mirroring](https://docs.directus.io/getting-started/intr
 
 Looking for technical support for your non-enterprise project? Please visit the [Directus Discord Community](https://directus.chat/).
 
-Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/) or [contact our team](https://directus.io/contact/).
+Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/).

@@ -57,7 +57,7 @@ Now that you have the frontend and backend linked up, let's touch on what's happ
 
 Vue is an [incrementally adoptable library](https://v3.vuejs.org/guide/introduction.html#what-is-vue-js) for extending your existing site as well as building Single-page Applications (SPAs). Some frameworks built on Vue also allow Server Side rendering and static site generation (e.g. Nuxt.js). We have also provided examples alongside this one for [Nuxt.js](https://github.com/directus/examples/tree/main/nuxtjs).
 
-Also, please note the Directus JavaScript SDK is pulled in under ``examples > vue > src > services > directus.js`. If you're interested, [see the `directus.js` file on Github](https://github.com/directus/examples/blob/main/vue/src/services/directus.js) and read more in the [Directus SDK Documentation](https://docs.directus.io/reference/sdk/).
+Also, please note the Directus JavaScript SDK is pulled in under `examples > vue > src > services > directus.js`. If you're interested, [see the `directus.js` file on Github](https://github.com/directus/examples/blob/main/vue/src/services/directus.js) and read more in the [Directus SDK Documentation](https://docs.directus.io/reference/sdk/).
 
 ## Authentication
 
@@ -81,4 +81,4 @@ Directus uses [Database Mirroring](https://docs.directus.io/getting-started/intr
 
 Looking for technical support for your non-enterprise project? Please visit the [Directus Discord Community](https://directus.chat/).
 
-Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/) or [contact our team](https://directus.io/contact/).
+Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/).

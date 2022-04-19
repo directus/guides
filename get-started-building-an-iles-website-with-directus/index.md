@@ -1,18 +1,18 @@
 ---
-title: Get Started Building an Iles Website with Directus
+title: Get Started Building an Îles Website with Directus
 date: 2022-04-19
 author: Eron Powell & Máximo Mussini
 image: ./iles-example.webp
 category: integration
 ---
 
-> This example will show you how to link a simple Iles frontend blog template to a Directus Project with a simple SQLite database containing a few blog posts.
+> This example will show you how to link a simple Îles frontend blog template to a Directus Project with a simple SQLite database containing a few blog posts.
 
 [[toc]]
 
 ## Scope and Purpose
 
-The purpose of this article is to focus on the bare basics of linking an Iles frontend to Directus, then show you where to learn about more robust authentication methods, roles & permissions configurations, and API functionalities. It is important to stress to new users that Directus is a general purpose database wrapper, _which mirrors any linked database_. No matter your data model or use-case, Directus can serve as a backend _(plus no-code admin panel)_ for any type of project and also connect to any _(or many)_ different front-ends.
+The purpose of this article is to focus on the bare basics of linking an Îles frontend to Directus, then show you where to learn about more robust authentication methods, roles & permissions configurations, and API functionalities. It is important to stress to new users that Directus is a general purpose database wrapper, _which mirrors any linked database_. No matter your data model or use-case, Directus can serve as a backend _(plus no-code admin panel)_ for any type of project and also connect to any _(or many)_ different front-ends.
 
 Please keep in mind that this is not a demo showing _what Directus can be used for_, but rather a low variable entry-point on the path to _understanding how to do anything you want with it_.
 
@@ -41,7 +41,7 @@ cd iles
 pnpm install
 ```
 
-4. Create a `.env` file for this Iles template by copying and pasting the provided `.env.example` file. Nothing will need to be changed in the copied `.env` file.
+4. Create a `.env` file for this Îles template by copying and pasting the provided `.env.example` file. Nothing will need to be changed in the copied `.env` file.
 
 5. Start the development server.
 
@@ -49,13 +49,13 @@ pnpm install
 npm run dev
 ```
 
-6. Your Directus Iles example is now running at <http://localhost:3000>.
+6. Your Directus Îles example is now running at <http://localhost:3000>.
 
 Now that you have the frontend and backend linked up, let's touch on what's happening in this project and where to find more sophisticated options.
 
 ## Iles
 
- [Iles](https://iles.pages.dev/guide/introduction) is a static-site generator (SSG) that provides great support for partial hydration. Use Vue and MDX to build your website, while enjoying the smooth development experience provided by Vite.js.
+ [Îles](https://iles.pages.dev/guide/introduction) is a static-site generator (SSG) that provides great support for partial hydration. Use Vue and MDX to build your website, while enjoying the smooth development experience provided by Vite.js.
 
 Also, please note the Directus JavaScript SDK is pulled in under `examples > iles > src > logic > directus.ts` _(find it [here](https://github.com/directus/examples/blob/main/iles/src/logic/directus.ts))_. If you'd like to learn more, checkout the [SDK documentation](https://docs.directus.io/reference/sdk/).
 
@@ -81,4 +81,4 @@ Directus uses [Database Mirroring](https://docs.directus.io/getting-started/intr
 
 Looking for technical support for your non-enterprise project? Please visit the [Directus Discord Community](https://directus.chat/).
 
-Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/) or [contact our team](https://directus.io/contact/).
+Want to stay focused on your content and apps? Let Directus manage the platform with our [Directus Cloud service](https://directus.io/pricing/).
