@@ -69,7 +69,7 @@ Additionally, any number of Roles can be created and fully configured. Permissio
 
 ## APIs
 
-There are two simple requests in this example worth noting. The first is in `home.component.ts` and the other in `article.component.ts`. If you'd like to see these, here are links to the [home](https://github.com/directus/examples/blob/main/angular/src/app/pages/home/home.component.ts) and [article](https://github.com/directus/examples/blob/main/angular/src/app/pages/article/article.component.ts) components on Github. However, please note that the Directus API is exhaustive for any database linked.
+There are two simple requests in this example worth noting. The first is in `home.component.ts` and the other in `article.component.ts`. If you'd like to see these, here are links to the [home](https://github.com/directus/examples/blob/main/angular/src/app/pages/home/home.component.ts) and [article](https://github.com/directus/examples/blob/main/angular/src/app/pages/article/article.component.ts) components on GitHub. However, please note that the Directus API is exhaustive for any database linked.
 
 Directus uses [Database Mirroring](https://docs.directus.io/getting-started/introduction/#database-mirroring) to dynamically generate REST endpoints and a GraphQL schema based on the connected database's architecture. This means the REST and the GraphQL APIs _will both fit any project with any database schema, out of the box_. Learn more in the [API Reference](https://docs.directus.io/reference/introduction/).
 

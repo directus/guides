@@ -70,7 +70,7 @@ Now that you have the frontend and backend linked up, let's touch on what's happ
 Remix is a React framework for Server-side Rendering (SSR) composed of a compiler, server side HTTP handler, server framework and browser framework.
 Read the [official Remix documentation](https://remix.run/docs/en/v1/pages/technical-explanation) to learn more.
 
-Also, please note the Directus JavaScript SDK is pulled in under `remix > app > lib > directus.js`. If you're interested, [see the `directus.js` file on Github](https://github.com/directus/examples/blob/main/remix/app/lib/directus.js) and read more in the [Directus SDK Documentation](https://docs.directus.io/reference/sdk/).
+Also, please note the Directus JavaScript SDK is pulled in under `remix > app > lib > directus.js`. If you're interested, [see the `directus.js` file on GitHub](https://github.com/directus/examples/blob/main/remix/app/lib/directus.js) and read more in the [Directus SDK Documentation](https://docs.directus.io/reference/sdk/).
 
 ## Authentication
 
@@ -86,7 +86,7 @@ Additionally, any number of Roles can be created and fully configured. Permissio
 
 ## APIs
 
-There are two simple requests in this example worth noting. The first is in `index.jsx` and the other in `$id.jsx`. If you'd like to see these, here are links to the [index](https://github.com/directus/examples/blob/main/remix/app/routes/index.jsx) and [$id](https://github.com/directus/examples/blob/main/remix/app/routes/articles/%24id.jsx) components on Github. However, please note that the Directus API is exhaustive for any database linked.
+There are two simple requests in this example worth noting. The first is in `index.jsx` and the other in `$id.jsx`. If you'd like to see these, here are links to the [index](https://github.com/directus/examples/blob/main/remix/app/routes/index.jsx) and [$id](https://github.com/directus/examples/blob/main/remix/app/routes/articles/%24id.jsx) components on GitHub. However, please note that the Directus API is exhaustive for any database linked.
 
 Directus uses [Database Mirroring](https://docs.directus.io/getting-started/introduction/#database-mirroring) to dynamically generate REST endpoints and a GraphQL schema based on the connected database's architecture. This means the REST and the GraphQL APIs _will both fit any project with any database schema, out of the box_. Learn more in the [API Reference](https://docs.directus.io/reference/introduction/).
 

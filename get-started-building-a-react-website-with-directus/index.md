@@ -57,7 +57,7 @@ Now that you have the frontend and backend linked up, let's touch on what's happ
 
 React is a library primarily for building [Single-page Applications](https://reactjs.org/) (SPAs), though there are cases where you may want use it to [extend your existing site](https://reactjs.org/docs/add-react-to-a-website.html). Some frameworks built on React also allow Server Side rendering and static site generation (e.g. Next.js and Gatsby). We have also provided examples alongside this one for [Next.js](https://github.com/directus/examples/tree/main/nextjs) and [Gatsby](https://github.com/directus/examples/tree/main/gatsby).
 
-Also, please note the JavaScript SDK is pulled in under `react > src > services > directus.js`. To learn more, you can see the [directus.js](https://github.com/directus/examples/blob/main/react/src/services/directus.js) file with the SDK on Github and read the [Directus SDK documentation](https://docs.directus.io/reference/sdk/).
+Also, please note the JavaScript SDK is pulled in under `react > src > services > directus.js`. To learn more, you can see the [directus.js](https://github.com/directus/examples/blob/main/react/src/services/directus.js) file with the SDK on GitHub and read the [Directus SDK documentation](https://docs.directus.io/reference/sdk/).
 
 ## Authentication
 
@@ -73,7 +73,7 @@ Additionally, any number of Roles can be created and fully configured. Permissio
 
 ## APIs
 
-There are two simple requests in this example worth noting. The first is in `Home.jsx` and the other in `Article.jsx`. If you'd like to see these, here are links to the [Home](https://github.com/directus/examples/blob/main/react/src/routes/Home.jsx) and [Article](https://github.com/directus/examples/blob/main/react/src/routes/Article.jsx) components on Github. However, please note that the Directus API is exhaustive for any database linked.
+There are two simple requests in this example worth noting. The first is in `Home.jsx` and the other in `Article.jsx`. If you'd like to see these, here are links to the [Home](https://github.com/directus/examples/blob/main/react/src/routes/Home.jsx) and [Article](https://github.com/directus/examples/blob/main/react/src/routes/Article.jsx) components on GitHub. However, please note that the Directus API is exhaustive for any database linked.
 
 Directus uses [Database Mirroring](https://docs.directus.io/getting-started/introduction/#database-mirroring) to dynamically generate REST endpoints and a GraphQL schema based on the connected database's architecture. This means the REST and the GraphQL APIs _will both fit any project with any database schema, out of the box_. Learn more in the [API Reference](https://docs.directus.io/reference/introduction/).
 
