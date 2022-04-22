@@ -49,18 +49,6 @@ npm install
 npm run dev
 ``` 
 
-Run this if you are on Windows instead.
-
-```
-npm run dev:windows
-```
-:::tip
-
-This is currently a known bug and it is tracked here:\
-https://github.com/remix-run/remix/issues/914
-
-:::
-
 6. Your Directus Remix example is now running at <http://localhost:8080>.
 
 Now that you have the frontend and backend linked up, let's touch on what's happening in this project and where to find more sophisticated options.
