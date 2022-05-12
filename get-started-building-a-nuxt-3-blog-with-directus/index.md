@@ -1,5 +1,6 @@
 ---
 title: Build a blog with Nuxt 3 & Directus
+summary: This guide shows you how to build a blog with Nuxt 3 and Directus step by step.
 date: 2022-04-07
 author: Conner Bachmann
 image: ./build-a-blog-with-nuxt3-and-directus.webp

@@ -1,5 +1,6 @@
 ---
 title: Get Started Building a Nuxt 2 Website with Directus
+summary: This example will show you how to link a simple Nuxt.js blog template to a Directus Project with a simple SQLite database containing a few blog posts.
 date: 2022-02-21
 author: Eron Powell & Azri Kahar
 image: ./nuxt-example.webp

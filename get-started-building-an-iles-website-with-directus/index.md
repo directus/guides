@@ -1,5 +1,6 @@
 ---
 title: Get Started Building an Îles Website with Directus
+summary: This example will show you how to link a simple Îles frontend blog template to a Directus Project with a simple SQLite database containing a few blog posts.
 date: 2022-04-19
 author: Eron Powell & Máximo Mussini
 image: ./iles-example.webp
