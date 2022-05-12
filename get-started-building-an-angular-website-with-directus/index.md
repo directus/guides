@@ -1,5 +1,6 @@
 ---
 title: Get Started Building an Angular Website with Directus
+summary: This example will show you how to link a simple Angular frontend blog template to a Directus Project with a simple SQLite database containing a few blog posts.
 date: 2022-02-21
 author: Eron Powell & Azri Kahar
 image: ./angular-example.webp

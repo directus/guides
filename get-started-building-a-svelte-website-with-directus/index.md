@@ -1,5 +1,6 @@
 ---
 title: Get Started Building a Svelte Website with Directus
+summary: This example will show you how to link a simple Svelte frontend blog template to a Directus Project with a simple SQLite database containing a few blog posts.
 date: 2022-02-21
 author: Eron Powell & Azri Kahar
 image: ./svelte-example.webp
