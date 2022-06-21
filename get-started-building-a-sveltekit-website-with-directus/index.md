@@ -62,7 +62,7 @@ Also, please note the Directus JavaScript SDK is pulled in under `examples > sve
 
 ## Authentication
 
-Aside from the default `local` authentication mechanism, Directus also supports SSO through `oauth2`, `openid`, and `ldap`. To learn more about SSO options, read our [SSO Documentation](https://docs.directus.io/configuration/config-options/#authentication) or follow our guide on [how to setup SSO](https://docs.directus.io/configuration/sso/).
+Aside from the default `local` authentication mechanism, Directus also supports SSO through `oauth2`, `openid`, and `ldap`. To learn more about SSO options, read our [SSO Documentation](https://docs.directus.io/self-hosted/config-options/#authentication) or follow our guide on [how to setup SSO](https://docs.directus.io/self-hosted/sso/).
 
 ## Users, Roles and Permissions
 
