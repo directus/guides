@@ -1,9 +1,9 @@
 ---
 title: How to Manage Your Supabase Database with Directus
 summary: In this guide, we will show you how to create a Supabase project, install the Directus platform locally and configure the two to connect.
-date: 2022-06-08
+date: 2022-08-08
 author: Eron Powell
-image: ./directus-plus-supabase/supabase-20220608A.webp
+image: ./directus-supabase-08082022.webp
 category: integration
 ---
 
