@@ -12,10 +12,12 @@ In this guide, we will demonstrate how to create a new Supabase project, install
 ## Introduction
 
 ![Supabase App](./supabase-20220608A.webp)
-[Supabase](​​https://supabase.com/) is an open-source Firebase alternative that provides a PostgreSQL database, storage, authentication, and a dynamic REST API based on your schema. While it is possible to self-host Supabase on your own infrastructure, this article will focus on Supabase Cloud’s Free tier, which is the fastest and easiest way to get started.
+
+**[Supabase](​​https://supabase.com/)** is an open-source Firebase alternative that provides a PostgreSQL database, storage, authentication, and a dynamic REST API based on your schema. While it is possible to self-host Supabase on your own infrastructure, this article will focus on Supabase Cloud’s Free tier, which is the fastest and easiest way to get started.
 
 ![Directus App](./directus-20220608A.webp)
-Directus is an open-source data platform that layers on top of any SQL database, providing a powerful suite of tools. The Directus Engine provides dynamic REST and GraphQL APIs based on your schema, hooks and automation, authentication and access control, and file transformations. Directus Studio enables engineers and non-technical users alike to browse, manage, and visualize database content through a no-code app.
+
+**Directus** is an open-source data platform that layers on top of any SQL database, providing a powerful suite of tools. The Directus Engine provides dynamic REST and GraphQL APIs based on your schema, hooks and automation, authentication and access control, and file transformations. Directus Studio enables engineers and non-technical users alike to browse, manage, and visualize database content through a no-code app.
 
 ---
 
@@ -39,7 +41,7 @@ Let’s dive into how we actually set up and link these two platforms to create 
 
 As mentioned, while you can [deploy Supabase locally](https://supabase.com/docs/guides/local-development). For the purpose of this guide, we’ll use Supabase Cloud:
 
-1. Create a Supabase account by signing in with GitHub.
+1. Create a **Supabase** account by signing in with GitHub.
 2. Give your organization a name (this can be changed later).
 3. Click **New Project** and select your organization.
 4. Follow the prompts, setting a project Name, Database Password, Region, and Pricing Plan, then click **Create New Project**.
@@ -103,7 +105,7 @@ The configuration can be found in <file-path>/example-project/.env
 cd example-project
 npx directus start
 ```
-Please note: To prevent public accessibility when using the supabase-js library,turn on row level security (RLS) on all these tables inside of the Supabase Dashboard. By default when RLS is turned on these tables cannot be read from or written to with the supabase-js library.
+**Please note:** To prevent public accessibility when using the supabase-js library,turn on row level security (RLS) on all these tables inside of the Supabase Dashboard. By default when RLS is turned on these tables cannot be read from or written to with the supabase-js library.
 
 That’s it! Your project is now up and running locally. You can access the Directus Studio in the browser via the URL displayed, and log in with the Directus admin credentials you entered above:
 
