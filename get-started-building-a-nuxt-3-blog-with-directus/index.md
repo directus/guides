@@ -54,7 +54,7 @@ Your Nuxt 3 application is now running at <http://localhost:3000>.
 Change the URL to your Directus server in the configuration and add the modules we just installed. ✨
 
 ```ts
-import { defineNuxtConfig } from "nuxt3";
+import { defineNuxtConfig } from 'nuxt/config';
 
 export default defineNuxtConfig({
 	modules: ["nuxt-directus", "@nuxtjs/tailwindcss"],
